@@ -1,7 +1,7 @@
 #include "bindcpp.h"
 
-void foo(void);
+void foo(int argc, const char** argv);
 
-void bar(void) {
-  foo();
+void bar(int argc, const char** argv) {
+  foo(argc, argv);
 }

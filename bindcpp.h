@@ -1,1 +1,1 @@
-void bar(void);
+void bar(int argc, const char** argv);
